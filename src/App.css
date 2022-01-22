@@ -1,0 +1,266 @@
+/* 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+.ps-morelink:hover{
+color: #2AC37D;
+}
+.product_category{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-align: left;
+  color: #8d8d8d;
+}
+
+
+.card {
+  width:280px;
+  display: block;
+  margin: 60px auto;
+  box-shadow: 10px 5px 40px 20px darken(#341cac, 5%);
+  transition: .25s ;
+}
+  @media(max-width:991px) {
+    div.card , div.col-3.skeleton-card {
+      width:32%;
+  }
+}
+  @media (max-width:765px) {
+    div.card , div.col-3.skeleton-card {
+      width: 50%;
+    }
+   
+  }
+  @media (max-width:535px) {
+    div.card , div.col-3.skeleton-card {
+      width: 100%;
+    }
+    
+  }
+
+  .card :hover {
+    box-shadow: 10px 5px 40px 20px darken(#341cac, 10%);
+    cursor: pointer;
+  }
+
+    
+    .button-primary {
+      transform: translate(10px, 0);
+    }
+    
+.card {
+  height: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.top-div {
+  display: flex;
+  justify-content: space-between;
+  position: relative
+}
+
+.top-div span {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-color: #A8A7A3;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.top-div button {
+  background-color: #fff;
+  font-size: 11px;
+  height: 20px;
+  width: 35px;
+  position: absolute;
+  left: 100px;
+ bottom: 20px;
+}
+
+.top-div span small {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  right: -5px;
+  bottom: 16px;
+  border: 3px solid #fff
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.image-section img {
+  margin-top: -20px
+}
+
+.bottom-div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative
+}
+
+.bottom-div h4 {
+  font-weight: 700
+}
+
+.sign {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center
+}
+
+.sign button {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  display: flex;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+}
+
+.sign small {
+  font-weight: 700;
+  margin-top: -14px;
+  margin-right: 4px;
+  height: 2px;
+  width: 2px
+}
+
+.sign span i {
+  margin-top: 5px
+}
+
+.card p {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 600
+}
+
+.last-section {
+  margin-top: 20px;
+  height: 50px;
+  width: 100%;
+  background-color: #132228;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.last-section .last {
+  padding: 20px;
+  position: relative;
+
+}
+
+.last i {
+  font-size: 35px;
+  color: #F6F6F6
+}
+
+.last button {
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  top: 25px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 5px;
+  border: none;
+  background-color: #132228;
+  border-radius: 10px;
+  transition: all 0.5s;
+  cursor: pointer
+}
+
+.last-section p {
+  color: #F6F6F6;
+  padding: 20px;
+}
+
+.last-section:hover {
+  background-color: black
+}
+
+.last button:hover {
+  background-color: #4CAF50
+}
+.selectedCat {
+  color: #2AC37D;
+}
+.selectedCat:hover {
+   color: #5b5b5b;
+}
+skeleton {
+  margin: 10px 0;
+}
+.skeleton-wrapper {
+  width: 100%;
+  position: relative;
+}
+.skeleton .thumbnail {
+  width: 100%;
+  min-height: 350px;
+  background: #e6e8e9;
+  border-radius: 7px;
+}
+.skeleton .text-lg {
+  width: 100%;
+  margin-top: 10px;
+  background: #e6e8e9;
+  border-radius: 7px;
+  min-height: 10px;
+}
+.skeleton .text-md {
+  width: 70%;
+  margin-top: 10px;
+  background: #e6e8e9;
+  border-radius: 7px;
+  min-height: 10px;
+}
+.skeleton .text-sm {
+  width: 40%;
+  margin-top: 10px;
+  background: #e6e8e9;
+  border-radius: 7px;
+  min-height: 10px;
+}
+.text-link {
+  
+  color: inherit;
+  text-decoration: inherit;
+}
+div.container-fluid {
+  padding: 0 15px;
+}
+
+  
